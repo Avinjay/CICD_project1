@@ -15,7 +15,7 @@ This Python script monitors a Git repository for new commits and automatically d
 The script uses environment variables to store sensitive information such as the GitHub PAT and the GITHOME directory. You can customize the following options:
 
 * `GITHUB_PAT`: The GitHub Personal Access Token
-* `GITHOME`: The directory where the script will store the cloned repository. Make the changes as per your system folder structure and place python & Shell script one folder behind of GITHOME
+* `GITHOME`: The directory where the script will store the cloned repository. Make the changes as per your system folder structure and place python & Shell script one folder behind of GITHOME. the env file is not placed here for security reason because it will expose PAT.
 
 ## Usage
 
